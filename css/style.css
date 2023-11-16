@@ -1,0 +1,315 @@
+body{
+  background-color: #040343;
+  color: #fff;
+  width: 100%;
+}
+
+/*Nav section*/
+#nav-section .navbar{
+	background-color: #59548B;
+	opacity: 0.9;
+}
+/*End nav section*/
+
+
+/*Home section*/
+#home-section{
+  background: url('../img/home_img.png') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+#home-section .dark-overlay{
+  background: rgba(28, 25, 84, 0.7);
+  min-height: 600px;
+}
+#home-section h1{
+	padding-top: 200px;
+	color: white;
+	font-size: 55px;
+}
+#home-section h3{
+	color: white;
+	font-size: 35px;
+}
+#home-section small{
+	color: white;
+	font-size: 16px;
+}
+#home-section .box-section{
+	background-color: #615E91; 
+	opacity: 0.6; 
+	border-radius: 12px; 
+	border: 1px solid white; 
+	padding: 10px; 
+	margin-top: 15px;
+}
+#home-section form{
+	margin-top: 5px;
+	padding-top: 5px;
+}
+#home-section form .form-control{
+	background-color: transparent;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	border-left: hidden;
+}
+#home-section form input{
+	color: white;
+}
+#home-section form .fa{
+	color: white;
+	font-size: 25px;
+}
+#home-section form span{
+	background-color: transparent;
+	border-right: hidden;
+}
+/*End Home section*/
+
+
+/*How it works section*/
+#how-it-works-section{
+  background: url('../img/car-repair(1).jpg') no-repeat center top;
+  background-size: cover;
+  min-height: 600px;
+}
+#how-it-works-section .overlay{
+  background: rgba(46, 52, 70, 0.8);
+  min-height: 600px;
+  padding: 30px 0;
+}
+#how-it-works-section .section-1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#how-it-works-section .section-1 .box{
+	padding: 50px 50px 80px 50px; 
+	background-color: #D9D9D9;
+}
+#how-it-works-section .section-1 .card{
+	background-color: #989CA4;
+	opacity: 0.9;
+}
+#how-it-works-section .section-1 .card .card-body p{
+	color: white;
+	font-size: 21px;
+	text-align: left;
+}
+#how-it-works-section .section-2{
+	font-size: 20px;
+	color: white;
+  	text-align: center;
+  	margin-top: 40px; 
+  	margin-bottom: 100px;
+}
+#how-it-works-section .section-4{
+	text-align: center;
+}
+#how-it-works-section .section-4 .btn{
+	font-size: 13px;
+	border-radius: 30px;
+	padding: 8px 40px 8px 40px;
+	margin-bottom: 50px;
+}
+#how-it-works-section .section-4 .fa{
+	background: white;
+	color: black;
+	padding: 9px;
+    width: 35px;
+	height: 35px;
+	font-size: 18px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+/*End How it works section*/
+
+
+/*Table section*/
+#table-section{
+	background-color: #23283B;
+}
+#table-section .section-1 p{
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+#table-section .section-1 .btn{
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 8px 150px 8px 160px;
+	margin-bottom:40px;
+	text-align: left;
+	margin-left: 10px;
+}
+#table-section .section-1 .fa{
+	background: white;
+	color: black;
+	padding: 9px;
+    width: 35px;
+	height: 35px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+#table-section .section-2{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#table-section .section-2 table{
+	color: white;
+}
+#table-section .section-2 table thead tr .th-if{
+	width: 52%; 
+	background-color: black;
+	vertical-align: middle;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#table-section .section-2 table thead tr th{
+	width: 12%;
+	background-color: #040343;
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+}
+#table-section .section-2 table thead tr th img{
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+}
+#table-section .section-2 table tbody tr .td-price{
+	height: 140px;
+	font-size: 45px;
+	color:white;
+	vertical-align: middle;
+	background-color: transparent;
+}
+#table-section .section-2 table tbody tr .td-p1, .td-p2, .td-p3, .td-p4{
+	font-size: 18px; 
+	background-color: #040343; 
+	vertical-align: middle;
+}
+#table-section .section-2 table tbody tr .td-ait1, .td-ait2, .td-ait3, .td-ait4{
+	padding-top: 30px; 
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+#table-section .section-2 table tbody tr .td-f-data{
+	background-color: transparent;
+}
+#table-section .section-2 table tbody tr td{
+	background-color: #040343; 
+	vertical-align: middle;
+}
+#table-section .section-2 table tbody tr td img{
+	vertical-align: middle;
+}
+
+/*End Table section*/
+
+
+
+/*Customer section*/
+#customer-section{
+	background-color: #23283B;
+	padding-top: 70px;
+}
+#customer-section .section-1 h1{
+	color: white;
+	margin-bottom: 50px;
+}
+#customer-section .section-2 h5{
+	font-size: 16px;
+}
+#customer-section .section-2 small{
+	font-size: 10px;
+}
+#customer-section .section-2 p{
+	font-size: 14px;
+}
+/*End Customer section*/
+
+
+
+/*Booking section*/
+#booking-section{
+	background-color: #23283B;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+#booking-section .section-1 h1{
+	color: white;
+}
+#booking-section .section-1 p{
+	color: #E3E4E6;
+	font-style: inherit;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#booking-section .section-2 form{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#booking-section .section-2 form .fa{
+	color: white;
+	font-size: 25px;
+}
+#booking-section .section-2 form span{
+	background-color: transparent;
+	border-right: hidden;
+}
+#booking-section .section-2 form .form-control{
+	background-color: transparent;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-left: hidden;
+}
+#booking-section .section-3 .reg-num{
+	color: #E3E4E6;
+	font-style: inherit;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#booking-section .section-3 .btn{
+	background-color: #721CFF;
+	color: white;
+	font-size: 20px;
+	padding: 10px 70px 10px 70px;
+	border-radius: 10px;
+}
+#booking-section .section-3 p{
+	color: white;
+	font-size: 15px;
+}
+/*End Booking section*/
+
+
+
+/*Footer section css*/
+#footer-section{
+	background-color: #222229;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#footer-section img{
+	height: 100px;
+}
+#footer-section h4,i{
+	color: white;
+}
+#footer-section p,a,small{
+	color: #E3E4E6;
+}
+#footer-section .btn{
+	background-color: #721CFF;
+	color: white;
+	font-weight: bold;
+}
+/*End Footer section*/
