@@ -109,7 +109,7 @@ body{
 #how-it-works-section .section-4 .btn{
 	font-size: 13px;
 	border-radius: 30px;
-	padding: 8px 40px 8px 40px;
+	padding: 6px 5px 6px 50px;
 	margin-bottom: 50px;
 }
 #how-it-works-section .section-4 .fa{
@@ -120,7 +120,7 @@ body{
 	height: 35px;
 	font-size: 18px;
 	border-radius: 50%;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 /*End How it works section*/
 
@@ -138,7 +138,7 @@ body{
 #table-section .section-1 .btn{
 	font-size: 20px;
 	border-radius: 30px;
-	padding: 8px 150px 8px 160px;
+	padding: 6px 5px 6px 12px;
 	margin-bottom:40px;
 	text-align: left;
 	margin-left: 10px;
@@ -152,7 +152,7 @@ body{
 	font-size: 18px;
 	text-align: center;
 	border-radius: 50%;
-	margin-left: 10px;
+	margin-left: 250px;
 }
 
 #table-section .section-2{
@@ -313,3 +313,215 @@ body{
 	font-weight: bold;
 }
 /*End Footer section*/
+
+
+
+
+/*CSS Media query section*/
+@media only screen and (max-width: 600px) {
+	
+	/*Navbar section*/
+	#nav-section .nav-logo{
+		width: 40px;
+		height: 40px;
+	}
+
+
+	/*Home section*/
+	#home-section{
+	  background: url('../img/home_img.png') no-repeat center top;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  min-height: 600px;
+	  max-height: 400px;
+	}
+	#home-section .dark-overlay{
+	  background: rgba(28, 25, 84, 0.7);
+	  min-height: 600px;
+	  max-height: 400px;
+	}
+	#home-section h1{
+	    font-size: 35px;
+	    padding-top: 150px;
+	}
+	#home-section h3{
+		color: white;
+		font-size: 20px;
+	}
+
+
+	/*How it work section*/
+	#how-it-works-section .section-4 .btn{
+		font-size: 13px;
+		border-radius: 30px;
+		padding: 6px 5px 6px 50px;
+		margin-bottom: 50px;
+	}
+	#how-it-works-section .section-4 .fa{
+		background: white;
+		color: black;
+		padding: 9px;
+	    width: 35px;
+		height: 35px;
+		font-size: 15px;
+		border-radius: 50%;
+		margin-left: 30px;
+	}
+	#how-it-works-section .section-1 .card .card-body p{
+		color: white;
+		font-size: 18px;
+		text-align: left;
+	}
+	#how-it-works-section .section-1 .card .card-body .img-hiw{
+		width: 40px;
+		height: 40px;
+	}
+
+
+
+	/*table section*/
+	#table-section .section-1 p{
+		font-size: 16px;
+	}
+	#table-section .section-1 .btn{
+		font-size: 15px;
+		border-radius: 30px;
+		padding: 3px 4px 3px 10px;
+		margin-bottom:40px;
+		text-align: left;
+		margin-left: 10px;
+	}	
+	#table-section .section-1 .fa{
+		background: white;
+		color: black;
+		padding: 6px;
+	    width: 30px;
+		height: 30px;
+		font-size: 15px;
+		text-align: center;
+		border-radius: 50%;
+		margin-left: 150px;
+	}
+	#table-section .section-2 table thead tr .th-if{
+		width: 52%; 
+		background-color: black;
+		vertical-align: middle;
+		font-size: 12px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#table-section .section-2 table thead tr th{
+		width: 12%;
+		background-color: #040343;
+		vertical-align: middle;
+		margin-left: auto;
+	    margin-right: auto;
+	    font-size: 10px;
+	}
+	#table-section .section-2 table thead tr th img{
+		vertical-align: middle;
+		margin-left: auto;
+	    margin-right: auto;
+	    width: 25px;
+	    height: 25px;
+	}
+	#table-section .section-2 table tbody tr .td-price{
+		height: 80px;
+		font-size: 18px;
+		color:white;
+		vertical-align: middle;
+		background-color: transparent;
+	}
+	#table-section .section-2 table tbody tr .td-p1, .td-p2, .td-p3, .td-p4{
+		font-size: 12px; 
+		background-color: #040343; 
+		vertical-align: middle;
+	}
+	#table-section .section-2 table tbody tr .td-ait1, .td-ait2, .td-ait3, .td-ait4{
+		padding-top: 20px; 
+		padding-bottom: 20px;
+		font-size: 12px;
+	}
+	#table-section .section-2 table tbody tr .td-f-data{
+		background-color: transparent;
+		font-size: 13px;
+	}
+	#table-section .section-2 table tbody tr td{
+		background-color: #040343; 
+		vertical-align: middle;
+	}
+	#table-section .section-2 table tbody tr td img{
+		vertical-align: middle;
+		width: 25px;
+		height: 25px;
+	}
+
+
+	/*Customer section*/
+	#customer-section{
+		background-color: #23283B;
+		padding-top: 50px;
+	}
+	#customer-section .section-1 h1{
+		color: white;
+		margin-bottom: 50px;
+		font-size: 28px;
+	}
+
+
+	/*Booking section*/
+	#booking-section .section-3 .btn{
+		background-color: #721CFF;
+		color: white;
+		font-size: 15px;
+		padding: 6px 65px 6px 65px;
+		border-radius: 10px;
+	}
+	#booking-section{
+		background-color: #23283B;
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	#booking-section .section-1 h1{
+		color: white;
+		font-size: 28px;
+	}
+	#booking-section .section-1 p{
+		color: #E3E4E6;
+		font-style: inherit;
+		font-size: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#booking-section .section-3 .reg-num{
+		color: white;
+		font-size: 15px;
+	}
+
+
+	/*Footer section*/
+	#footer-section{
+		background-color: #222229;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#footer-section img{
+		height: 60px;
+	}
+	#footer-section h4,i{
+		color: white;
+	}
+	#footer-section p,a,small{
+		color: #E3E4E6;
+	}
+	#footer-section .btn{
+		background-color: #721CFF;
+		color: white;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	#footer-section h4{
+		font-size: 16px;
+	}
+
+}
